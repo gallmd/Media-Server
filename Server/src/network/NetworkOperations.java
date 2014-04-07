@@ -122,6 +122,8 @@ public class NetworkOperations {
 
 			//create client socket, get input and output
 			try {
+				
+				
 
 				input = new DataInputStream(clientSocket.getInputStream());
 				output = new DataOutputStream(clientSocket.getOutputStream());

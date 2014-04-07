@@ -136,7 +136,8 @@ public class SQLiteJDBC{
 
 			for(int i = 0; i < columns.length; i++)
 				displayTable.getColumn(i).pack();
-
+			
+			netop.sendMessage("end of update");
 			rs.close();
 			stmnt.close();
 			c.close();
